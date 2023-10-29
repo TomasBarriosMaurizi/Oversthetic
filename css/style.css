@@ -13,9 +13,9 @@
 
 .navbar{padding: 0% ;}
 
-.nav-link h3{font-family: "Quicksand";color: #572828;font-weight: 600;}
+.nav-link p{font-family: "Quicksand";color: #572828;font-weight: 600;font-size: 2em;}
 
-.navbar-brand h2{font-family: "Quicksand";font-weight: 600;
+.navbar-brand h2{font-family: "Quicksand";font-weight: 600;font-size: 2.5em;
 color: #572828;}
 
 
@@ -32,7 +32,7 @@ color: #572828;}
     color:#250707;   
 }
 
-.vestite-con-estilo h1 {
+.vestite-con-estilo h2 {
     text-align: center;
     font-family: "Quicksand";
     font-size: 10vw;
@@ -46,7 +46,7 @@ color: #572828;}
     background-color: #250707;   
 }
 
-.nuevas-prendas h2 {
+.nuevas-prendas h1 {
     font-family: "Quicksand";
     font-weight: 700;
     font-size: 6.5vw;
@@ -157,7 +157,7 @@ color: #ffcdbc;
     width: 100%;
     height: 100%;
 }
-.carousel-caption h5 {font-size: 2vw;
+.carousel-caption h2 {font-size: 2vw;
  font-family: "Barlow";
 }
 
@@ -195,10 +195,10 @@ color: #ffcdbc;
 .cuerpoProductos { background-color: #e6c7c7; display: grid; grid-template-rows: auto 1fr auto;min-height: 100vh;}
 
 .remeras {padding-bottom: 4vw;padding-left: 1vw;padding-right: 1vw;}
-.remeras h3 {font-size: 6vw;color: #572828 ;padding: 5%;font-family:"Quicksand"; font-weight: 400;}
+.remeras h2 {font-size: 6vw;color: #572828 ;padding: 5%;font-family:"Quicksand"; font-weight: 400;}
 .remeras-div {display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;gap:1%}
 .remeras-div img {width: 100%;height: 95%;}
-.remeras-div h4 {text-align: center; font-size: 1vw;color: #572828;font-family:"Barlow";font-weight: 500;}
+.remeras-div h3 {text-align: center; font-size: 1vw;color: #572828;font-family:"Barlow";font-weight: 500;}
 
 .buzos {padding-bottom: 4vw;padding-left: 1vw;padding-right: 1vw;}
 .buzos h2 {font-size: 6vw;color: #572828 ;padding: 5%;font-family:"Quicksand"; font-weight: 400;}
@@ -221,14 +221,14 @@ color: #ffcdbc;
     background-image: url("../img/background.jpg");background-repeat: no-repeat;background-size: cover; 
 }
 .cuerpoPreguntas {min-height: 100vh;display: grid;grid-template-rows:auto 1fr auto ; }
-.preguntas h2 {font-family:"Quicksand";font-size: 3vw;padding-top: 10vh;}
-.preguntas h4 {font-family:"Barlow";font-size: 1.5vw;}
+.preguntas h1 {font-family:"Quicksand";font-size: 3vw;padding-top: 10vh;}
+.preguntas h2 {font-family:"Barlow";font-size: 1.5vw;}
 
 
-/* Contacto no responsive*/
+/* Contacto */
 
 .cuerpoContacto {min-height: 100vh;display: grid;grid-template-rows:auto 1fr auto ;background-color: #250707; }
-.cuerpoContacto > h2{padding-bottom: 10vh; text-align: center; font-weight: 600;font-size: 6vw;text-align: center;padding-top: 16vh;color: #ffcdbc;}
+.cuerpoContacto > h1{padding-bottom: 10vh; text-align: center; font-weight: 600;font-size: 6vw;text-align: center;padding-top: 16vh;color: #ffcdbc;}
 .contacto {display: grid; grid-template-columns: 1fr 1fr 1fr;margin-bottom: 7rem;}
 
 .contactos{display: grid;grid-template-rows: 1fr 1fr 1fr;}
@@ -237,7 +237,7 @@ color: #ffcdbc;
 .seccionContacto img{width: 40%;}
 
 .mensaje {background-color: #ffcdbc;border-radius: 10%;margin-inline: 6%;margin-bottom: 5%;}
-.mensaje h3 {text-align: center;font-family: "Barlow";font-weight: 500;font-size: 2vw;padding-top: 4%;color: #130303; padding-bottom: 7%;}
+.mensaje h2 {text-align: center;font-family: "Barlow";font-weight: 500;font-size: 2vw;padding-top: 4%;color: #130303; padding-bottom: 7%;}
 .formulario {display: flex;flex-direction: column;align-items: center;margin-bottom: 0%; margin-bottom: 14%;}
 .formulario {font-size: 1.5vw;font-family: "Barlow";color: #572828;}
 
@@ -250,6 +250,7 @@ color: #ffcdbc;
 @media screen and (max-width:990px){
 
 /* Index y universal*/
+.navbar-brand h2{font-family: "Quicksand";font-weight: 600;font-size: 3vh;}
 
 .nuevas-prendas h2 {font-size: 8.9vw;}
 .vestite-con-estilo{height:40em}
@@ -274,7 +275,7 @@ footer a {font-size: 1vh;}
 /* Productos */
 
 .remeras-div {grid-template-columns: 1fr 1fr 1fr; padding-bottom: 3rem;row-gap: 10%; }
-.remeras-div h4 {font-size: 3vw ;white-space: nowrap 2; }
+.remeras-div h3 {font-size: 3vw ;white-space: nowrap 2; }
 .buzos-div {grid-template-columns: 1fr 1fr 1fr;padding-bottom: 3.5rem;row-gap: 10%  }
 .buzos-div h3 {font-size: 3vw;white-space: nowrap 2; }
 
@@ -298,12 +299,12 @@ footer a {font-size: 1vh;}
 
 @media screen and (max-width:1450px){
     .preguntas {font-family: "Barlow";font-size: 2vw;}
-    .preguntas h2 {font-family:"Quicksand";font-size: 5vw;padding-top: 10vh;}
-    .preguntas h4 {font-family:"Barlow";font-size: 3.5vw;}
-        
+    .preguntas h1 {font-family:"Quicksand";font-size: 5vw;padding-top: 10vh;}
+    .preguntas h2 {font-family:"Barlow";font-size: 3.5vw;}
+    
    }
 @media screen and (max-width:990px){
     .preguntas {font-family: "Barlow";font-size: 1,5vh;}
-    .preguntas h2 {font-family:"Quicksand";font-size: 5vh;padding-top: 10vh;}
-    .preguntas h4 {font-family:"Barlow";font-size: 2.5vh;}}
+    .preguntas h1 {font-family:"Quicksand";font-size: 5vh;padding-top: 10vh;}
+    .preguntas h2 {font-family:"Barlow";font-size: 2.5vh;}}
 
