@@ -1,310 +1,545 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
-
-
-
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;}
-
-.menu {background-color: #ffcdbc; padding-block: 0.5%;}
-
-.navbar{padding: 0% ;}
-
-.nav-link p{font-family: "Quicksand";color: #572828;font-weight: 600;font-size: 2em;}
-
-.navbar-brand h2{font-family: "Quicksand";font-weight: 600;font-size: 2.5em;
-color: #572828;}
-
-
-
-.vestite-con-estilo {display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 60em;
-    background-image: url("../img/ropa-oversize.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    align-items: center;
-    color:#250707;   
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
+.menu {
+  background-color: #ffcdbc;
+  padding-block: 0.5%;
+}
+
+.navbar {
+  padding: 0%;
+}
+
+.nav-link p {
+  font-family: "Quicksand";
+  color: #572828;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.navbar-brand h2 {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 2.5em;
+  color: #572828;
+}
+
+.vestite-con-estilo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60em;
+  background-image: url("../img/ropa-oversize.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  align-items: center;
+  color: #250707;
+}
 .vestite-con-estilo h2 {
-    text-align: center;
-    font-family: "Quicksand";
-    font-size: 10vw;
-    font-weight: 600;
+  text-align: center;
+  font-family: "Quicksand";
+  font-size: 10vw;
+  font-weight: 600;
 }
 
-.nuevas-prendas{
-    padding-top:3.75rem ;
-    padding-bottom:3.75rem ;
-    text-align: center;
-    background-color: #250707;   
+.nuevas-prendas {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+  text-align: center;
+  background-color: #250707;
 }
-
 .nuevas-prendas h1 {
-    font-family: "Quicksand";
-    font-weight: 700;
-    font-size: 6.5vw;
-    color: #ffcdbc;
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 6.5vw;
+  color: #ffcdbc;
 }
 
 .prendas {
-    background-color:#cf6d4c;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  background-color: #cf6d4c;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-
-.prenda img{
-    width: 100%;
-    height: 100%;
-    padding-bottom: 2rem;
-    min-height: 100%;
-   
+.prendas .prenda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 18%;
 }
-
-.prenda {display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding-bottom: 18%;
+.prendas .prenda img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+  min-height: 100%;
 }
-
-.vermas {
-    font-family: "Barlow";
-    font-weight: 400;
-    text-align: center;
-    font-size: 1.9vw;
-    color: #ffcdbc;
-    padding-inline: 10%;
-    background-color: #130303;
-    border-radius: 1rem;
-    transition: transform 1s;
-    white-space: nowrap;
+.prendas .prenda .vermas {
+  font-family: "Barlow";
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.9vw;
+  color: #ffcdbc;
+  padding-inline: 10%;
+  background-color: #130303;
+  border-radius: 1rem;
+  transition: transform 1s;
+  white-space: nowrap;
 }
-
-.vermas:hover {
-    transform: scale(1.4);
+.prendas .prenda .vermas:hover {
+  transform: scale(1.4);
 }
 
 footer {
-padding-top: 1%;
-background-color: #572828;
-    display: grid;grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    }
-    
-
-
-.footerdiv {
-    font-family: "Quicksand";
-    font-weight: 300;
-    font-size: 1vw;
-    text-decoration: none;
-    color: #ffcdbc;
+  padding-top: 1%;
+  background-color: #572828;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
-.footerdiv p{
-    font-family: "Quicksand";
-    font-weight: 300;
-    font-size: 1vw;
-    text-decoration: none;
-    color: #ffcdbc;
+footer .footerdiv, footer p {
+  font-family: "Quicksand";
+  font-weight: 300;
+  font-size: 1vw;
+  text-decoration: none;
+  color: #ffcdbc;
 }
-.footerlist a{
-font-family: "Quicksand";
-font-weight: 300;
-font-size: 1vw;
-text-decoration: none;
-color: hsl(15, 100%, 87%);
+footer .footerlist a {
+  font-family: "Quicksand";
+  font-weight: 300;
+  font-size: 1vw;
+  text-decoration: none;
+  color: hsl(15, 100%, 87%);
 }
 
-/* Ofertas  */
-
-.oferTitulo {font-family: "Quicksand";
-font-weight: 600;
-font-size: 8vw;
-text-align: center;
-padding-top: 16vh;
-color: #ffcdbc;
+/* Ofertas */
+.oferTitulo {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 8vw;
+  text-align: center;
+  padding-top: 16vh;
+  color: #ffcdbc;
 }
 
-
-.carrusel{
-     width: 100%; display: flex;justify-content: center;padding-block: 7vw 3vw;
-    }
-#carouselExampleCaptions {
-    width: 46vw;height: 60vw; 
+.carrusel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-block: 7vw 3vw;
 }
-.cuerpoOferta {
-    background-color:#947b73 ; display: grid; grid-template-rows: auto 1fr auto;min-height: 100vh;
+.carrusel #carouselExampleCaptions {
+  width: 46vw;
+  height: 60vw;
 }
-.carousel-inner {
-    width: 100%;
-    height: 100%; border-radius: 6%;
+.carrusel .cuerpoOferta {
+  background-color: #947b73;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
-.carousel-item {
-    width: 100%;
-    height: 100%;
+.carrusel .carousel-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 6%;
 }
-.carousel-item img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.carrusel .carousel-inner .carousel-item {
+  width: 100%;
+  height: 100%;
 }
-.carousel-caption h2 {font-size: 2vw;
- font-family: "Barlow";
+.carrusel .carousel-inner .carousel-item img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.carrusel .carousel-inner .carousel-caption {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+}
+.carrusel .carousel-inner .carousel-caption h2 {
+  font-size: 2vw;
+  font-family: "Barlow";
+}
+.carrusel .carousel-inner .carousel-caption p {
+  font-size: 1vw;
+  font-family: "Barlow";
 }
 
-.carousel-caption p {font-size: 1vw;
-   font-family: "Barlow";}
-
-.carousel-caption {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5); 
-    color: #fff; 
-    padding: 20px; }
-
-.contactanos {display: flex;justify-content: center;}
-
-.contactanos a{
-    font-family: "Barlow";
-    font-weight: 400;
-    text-align: center;
-    font-size: 1.9vw;
-    color: #ffcdbc;
-    padding-inline: 10%;
-    background-color: #130303;
-    border-radius: 1rem;
-    margin-bottom: 4vw;
-    transition: transform 1s;
-    white-space: nowrap;}
-
+.contactanos {
+  display: flex;
+  justify-content: center;
+}
+.contactanos a {
+  font-family: "Barlow";
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.9vw;
+  color: #ffcdbc;
+  padding-inline: 10%;
+  background-color: #130303;
+  border-radius: 1rem;
+  margin-bottom: 4vw;
+  transition: transform 1s;
+  white-space: nowrap;
+}
 .contactanos a:hover {
-    transform: scale(1.4);}
+  transform: scale(1.4);
+}
 
-/* Productos  */
-
-.cuerpoProductos { background-color: #e6c7c7; display: grid; grid-template-rows: auto 1fr auto;min-height: 100vh;}
-
-.remeras {padding-bottom: 4vw;padding-left: 1vw;padding-right: 1vw;}
-.remeras h2 {font-size: 6vw;color: #572828 ;padding: 5%;font-family:"Quicksand"; font-weight: 400;}
-.remeras-div {display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;gap:1%}
-.remeras-div img {width: 100%;height: 95%;}
-.remeras-div h3 {text-align: center; font-size: 1vw;color: #572828;font-family:"Barlow";font-weight: 500;}
-
-.buzos {padding-bottom: 4vw;padding-left: 1vw;padding-right: 1vw;}
-.buzos h2 {font-size: 6vw;color: #572828 ;padding: 5%;font-family:"Quicksand"; font-weight: 400;}
-.buzos-div {display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;gap:1%}
-.buzos-div img {width: 100%;height: 95%;}
-.buzos-div h3 {text-align: center; font-size: 1vw;color: #572828;font-family:"Barlow";font-weight: 500;}
-
-.pantalones {padding-bottom: 4vw;padding-left: 1vw;padding-right: 1vw;}
-.pantalones h2 {font-size: 6vw;color: #572828 ;padding: 5%;font-family:"Quicksand"; font-weight: 400;}
-.pants-div {display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;gap:1%}
-.pants-div img {width: 100%;height: 95%;}
-.pants-div h3 {text-align: center; font-size: 1vw;color: #572828;font-family:"Barlow";font-weight: 500;}
+/* Productos */
+.cuerpoProductos {
+  background-color: #e6c7c7;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+.cuerpoProductos .remeras {
+  padding-bottom: 4vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.cuerpoProductos .remeras h2 {
+  font-size: 6vw;
+  color: #572828;
+  padding: 5%;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.cuerpoProductos .remeras .remeras-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1%;
+}
+.cuerpoProductos .remeras .remeras-div img {
+  width: 100%;
+  height: 95%;
+}
+.cuerpoProductos .remeras .remeras-div h3 {
+  text-align: center;
+  font-size: 1vw;
+  color: #572828;
+  font-family: "Barlow";
+  font-weight: 500;
+}
+.cuerpoProductos .buzos {
+  padding-bottom: 4vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.cuerpoProductos .buzos h2 {
+  font-size: 6vw;
+  color: #572828;
+  padding: 5%;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.cuerpoProductos .buzos .buzos-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1%;
+}
+.cuerpoProductos .buzos .buzos-div img {
+  width: 100%;
+  height: 95%;
+}
+.cuerpoProductos .buzos .buzos-div h3 {
+  text-align: center;
+  font-size: 1vw;
+  color: #572828;
+  font-family: "Barlow";
+  font-weight: 500;
+}
+.cuerpoProductos .pantalones {
+  padding-bottom: 4vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.cuerpoProductos .pantalones h2 {
+  font-size: 6vw;
+  color: #572828;
+  padding: 5%;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.cuerpoProductos .pantalones .pants-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1%;
+}
+.cuerpoProductos .pantalones .pants-div img {
+  width: 100%;
+  height: 95%;
+}
+.cuerpoProductos .pantalones .pants-div h3 {
+  text-align: center;
+  font-size: 1vw;
+  color: #572828;
+  font-family: "Barlow";
+  font-weight: 500;
+}
 
 /* Preguntas */
-
-.preguntas {font-family: "Barlow";font-size: 1vw;
-    color: #250707;
-    padding-inline: 6%;
-    display: block;
-    background-image: url("../img/background.jpg");background-repeat: no-repeat;background-size: cover; 
+.preguntas {
+  font-family: "Barlow";
+  font-size: 1vw;
+  color: #250707;
+  padding-inline: 6%;
+  display: block;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.cuerpoPreguntas {min-height: 100vh;display: grid;grid-template-rows:auto 1fr auto ; }
-.preguntas h1 {font-family:"Quicksand";font-size: 3vw;padding-top: 10vh;}
-.preguntas h2 {font-family:"Barlow";font-size: 1.5vw;}
+.preguntas h1 {
+  font-family: "Quicksand";
+  font-size: 3vw;
+  padding-top: 10vh;
+}
+.preguntas h2 {
+  font-family: "Barlow";
+  font-size: 1.5vw;
+}
 
+.cuerpoPreguntas {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
 
 /* Contacto */
-
-.cuerpoContacto {min-height: 100vh;display: grid;grid-template-rows:auto 1fr auto ;background-color: #250707; }
-.cuerpoContacto > h1{padding-bottom: 10vh; text-align: center; font-weight: 600;font-size: 6vw;text-align: center;padding-top: 16vh;color: #ffcdbc;}
-.contacto {display: grid; grid-template-columns: 1fr 1fr 1fr;margin-bottom: 7rem;}
-
-.contactos{display: grid;grid-template-rows: 1fr 1fr 1fr;}
-.seccionContacto {display: flex;flex:1;justify-content: center ;align-items: center;background-color: #ffcdbc;border-radius: 10%;margin-bottom: 5%;margin-left: 4%;}
-.seccionContacto h3 {font-family: "Barlow";font-size: 2vw;color: #947b73;background-color: #130303;padding: 2% 1%;border-radius: 20%;}
-.seccionContacto img{width: 40%;}
-
-.mensaje {background-color: #ffcdbc;border-radius: 10%;margin-inline: 6%;margin-bottom: 5%;}
-.mensaje h2 {text-align: center;font-family: "Barlow";font-weight: 500;font-size: 2vw;padding-top: 4%;color: #130303; padding-bottom: 7%;}
-.formulario {display: flex;flex-direction: column;align-items: center;margin-bottom: 0%; margin-bottom: 14%;}
-.formulario {font-size: 1.5vw;font-family: "Barlow";color: #572828;}
-
-.mapa {background-color: #ffcdbc;margin-bottom:5%; border-radius: 10%; text-align: center; }
-.mapa h3 {text-align: center; font-family:"Barlow"; font-size: 2vw; font-weight: 500;padding-top: 4%;padding-bottom: 7%;}
-.mapa iframe {width: 90%; height: 70%; }
-
-
-
-@media screen and (max-width:990px){
-
-/* Index y universal*/
-.navbar-brand h2{font-family: "Quicksand";font-weight: 600;font-size: 3vh;}
-
-.nuevas-prendas h2 {font-size: 8.9vw;}
-.vestite-con-estilo{height:40em}
-.prendas {display: grid;grid-template-columns: 1fr;}
-.prenda img{width: 70%; border-radius: 10%;}
-.prenda {padding-bottom: 10%;}
-.vermas {font-size: 3.9vw;}
-footer p {font-size: 1vh;margin-bottom: .6rem;}
-.footerdiv {font-size: 1vh;}
-footer a {font-size: 1vh;}
-
-/* Oferta  */
-
-#carouselExampleCaptions {
-    width: 46vh;height: 60vh;
+.cuerpoContacto {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #250707;
 }
-.oferTitulo{font-size: 8vh;padding-top: 8vh;}
-.contactanos a {font-size: 2vh;}
-.footerOferta {position: absolute;}
-
-
-/* Productos */
-
-.remeras-div {grid-template-columns: 1fr 1fr 1fr; padding-bottom: 3rem;row-gap: 10%; }
-.remeras-div h3 {font-size: 3vw ;white-space: nowrap 2; }
-.buzos-div {grid-template-columns: 1fr 1fr 1fr;padding-bottom: 3.5rem;row-gap: 10%  }
-.buzos-div h3 {font-size: 3vw;white-space: nowrap 2; }
-
-.pants-div {grid-template-columns: 1fr 1fr 1fr;padding-bottom: 6rem;row-gap: 10%  }
-.pants-div h3 {font-size: 3vw ; white-space: nowrap 2; }}
-
-@media screen and (max-width:579px){
-
-/* Productos */
-
-    .remeras-div {grid-template-columns: 1fr 1fr 1fr; padding-bottom: 2rem;row-gap: 10%; }
-    .buzos-div {grid-template-columns: 1fr 1fr 1fr;padding-bottom: 2rem;row-gap: 10%  }
-    .pants-div {grid-template-columns: 1fr 1fr 1fr;padding-bottom: 4rem;row-gap: 10%  }
-    
-/* Ofertas */
-    
-.footeroferta {position: absolute;}
+.cuerpoContacto > h1 {
+  padding-bottom: 10vh;
+  text-align: center;
+  font-weight: 600;
+  font-size: 6vw;
+  text-align: center;
+  padding-top: 16vh;
+  color: #ffcdbc;
 }
 
+.contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 50vh;
+  margin-bottom: 7rem;
+}
+.contacto .contactos {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.contacto .seccionContacto {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffcdbc;
+  border-radius: 10%;
+  margin-bottom: 5%;
+  margin-left: 4%;
+}
+.contacto .seccionContacto h3 {
+  font-family: "Barlow";
+  font-size: 2vw;
+  color: #947b73;
+  background-color: #130303;
+  padding: 2% 1%;
+  border-radius: 20%;
+}
+.contacto .seccionContacto img {
+  width: 40%;
+}
+.contacto .mensaje {
+  background-color: #ffcdbc;
+  border-radius: 10%;
+  margin-inline: 6%;
+  margin-bottom: 5%;
+}
+.contacto .mensaje h2 {
+  text-align: center;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 2vw;
+  padding-top: 4%;
+  color: #130303;
+  padding-bottom: 7%;
+}
+.contacto .mensaje .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0%;
+  margin-bottom: 14%;
+  font-size: 1.5vw;
+  font-family: "Barlow";
+  color: #572828;
+}
+.contacto .mensaje .mapa {
+  background-color: #ffcdbc;
+  margin-bottom: 5%;
+  border-radius: 10%;
+}
+.contacto .mensaje .mapa h3 {
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 2vw;
+  font-weight: 500;
+  padding-top: 4%;
+  padding-bottom: 7%;
+}
+.contacto .mapa iframe {
+  width: 100%;
+  height: 70%;
+}
+
+.footerPreguntas {
+  margin-top: 10%;
+}
+
+
+@media screen and (max-width: 990px) {
+  /* Index y universal*/
+  .navbar-brand h2 {
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 3vh;
+  }
+  .nuevas-prendas h2 {
+    font-size: 8.9vw;
+  }
+  .vestite-con-estilo {
+    height: 40em;
+  }
+  .prendas {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .prendas .prenda {
+    padding-bottom: 10%;
+  }
+  .prendas .prenda img {
+    width: 70%;
+    border-radius: 10%;
+  }
+  .prendas .prenda .vermas {
+    font-size: 3.9vw;
+  }
+  footer p {
+    font-size: 1vh;
+    margin-bottom: 0.6rem;
+  }
+  .footerdiv, footer a {
+    font-size: 1vh;
+  }
+  /* Oferta  */
+  .carrusel #carouselExampleCaptions {
+    width: 46vh;
+    height: 60vh;
+  }
+  .oferTitulo {
+    font-size: 8vh;
+    padding-top: 8vh;
+  }
+  .contactanos a {
+    font-size: 2vh;
+  }
+  .footerOferta {
+    position: absolute;
+  }
+  /* Productos */
+  .cuerpoProductos .remeras .remeras-div {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 3rem;
+    row-gap: 10%;
+  }
+  .cuerpoProductos .remeras .remeras-div h3 {
+    font-size: 3vw;
+    white-space: nowrap 2;
+  }
+  .cuerpoProductos .buzos .buzos-div {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 3.5rem;
+    row-gap: 10%;
+  }
+  .cuerpoProductos .buzos .buzos-div h3 {
+    font-size: 3vw;
+    white-space: nowrap 2;
+  }
+  .cuerpoProductos .pantalones .pants-div {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 6rem;
+    row-gap: 10%;
+  }
+  .cuerpoProductos .pantalones .pants-div h3 {
+    font-size: 3vw;
+    white-space: nowrap 2;
+  }
+}
+@media screen and (max-width: 579px) {
+  /* Productos */
+  .cuerpoProductos .remeras .remeras-div, .cuerpoProductos .buzos .buzos-div {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 2rem;
+    row-gap: 3%;
+  }
+  .cuerpoProductos .pantalones .pants-div {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 4rem;
+    row-gap: 3%;
+  }
+  /* Ofertas */
+  .footeroferta {
+    position: absolute;
+  }
+}
 /* Preguntas */
-
-@media screen and (max-width:1450px){
-    .preguntas {font-family: "Barlow";font-size: 2vw;}
-    .preguntas h1 {font-family:"Quicksand";font-size: 5vw;padding-top: 10vh;}
-    .preguntas h2 {font-family:"Barlow";font-size: 3.5vw;}
-    
-   }
-@media screen and (max-width:990px){
-    .preguntas {font-family: "Barlow";font-size: 1,5vh;}
-    .preguntas h1 {font-family:"Quicksand";font-size: 5vh;padding-top: 10vh;}
-    .preguntas h2 {font-family:"Barlow";font-size: 2.5vh;}}
-
+@media screen and (max-width: 1450px) {
+  .preguntas {
+    font-family: "Barlow";
+    font-size: 2vw;
+  }
+  .preguntas h1 {
+    font-family: "Quicksand";
+    font-size: 5vw;
+    padding-top: 10vh;
+  }
+  .preguntas h2 {
+    font-family: "Barlow";
+    font-size: 3.5vw;
+  }
+}
+@media screen and (max-width: 990px) {
+  .preguntas {
+    font-family: "Barlow";
+    font-size: 1, 5vh;
+  }
+  .preguntas h1 {
+    font-family: "Quicksand";
+    font-size: 5vh;
+    padding-top: 10vh;
+  }
+  .preguntas h2 {
+    font-family: "Barlow";
+    font-size: 2.5vh;
+  }
+  .contacto {
+    grid-template-columns: 1fr 1fr;
+  }
+}/*# sourceMappingURL=style.css.map */
