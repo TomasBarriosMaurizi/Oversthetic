@@ -1,0 +1,104 @@
+// _productos.scss
+
+// Estilos de la sección de "Remeras"
+.remeras {
+    padding-bottom: $remeras-padding-bottom;
+    padding-left: $remeras-padding-left;
+    padding-right: $remeras-padding-right;
+  
+    h2 {
+      font-size: $remeras-h2-font-size;
+      color: $remeras-h2-color;
+      padding: $remeras-h2-padding;
+      font-family: $remeras-h2-font-family;
+      font-weight: $remeras-h2-font-weight;
+    }
+  
+    .remeras-div {
+      display: $remeras-div-display;
+      grid-template-columns: $remeras-div-grid-template-columns;
+      gap: $remeras-div-gap;
+  
+      img {
+        width: $remeras-img-width;
+        height: $remeras-img-height;
+      }
+  
+      h3 {
+        text-align: $remeras-h3-text-align;
+        font-size: $remeras-h3-font-size;
+        color: $remeras-h3-color;
+        font-family: $remeras-h3-font-family;
+        font-weight: $remeras-h3-font-weight;
+      }
+    }
+  }
+  
+  // Estilos de la sección de "Buzos"
+  .buzos {
+    padding-bottom: $buzos-padding-bottom;
+    padding-left: $buzos-padding-left;
+    padding-right: $buzos-padding-right;
+  
+    h2 {
+      font-size: $buzos-h2-font-size;
+      color: $buzos-h2-color;
+      padding: $buzos-h2-padding;
+      font-family: $buzos-h2-font-family;
+      font-weight: $buzos-h2-font-weight;
+    }
+  
+    .buzos-div {
+      display: $buzos-div-display;
+      grid-template-columns: $buzos-div-grid-template-columns;
+      gap: $buzos-div-gap;
+  
+      img {
+        width: $buzos-img-width;
+        height: $buzos-img-height;
+      }
+  
+      h3 {
+        text-align: $buzos-h3-text-align;
+        font-size: $buzos-h3-font-size;
+        color: $buzos-h3-color;
+        font-family: $buzos-h3-font-family;
+        font-weight: $buzos-h3-font-weight;
+      }
+    }
+  }
+  
+  // Estilos de la sección de "Pantalones"
+  .pantalones {
+    padding-bottom: $pantalones-padding-bottom;
+    padding-left: $pantalones-padding-left;
+    padding-right: $pantalones-padding-right;
+  
+    h2 {
+      font-size: $pantalones-h2-font-size;
+      color: $pantalones-h2-color;
+      padding: $pantalones-h2-padding;
+      font-family: $pantalones-h2-font-family;
+      font-weight: $pantalones-h2-font-weight;
+    }
+  
+    .pants-div {
+      display: $pants-div-display;
+      grid-template-columns: $pants-div-grid-template-columns;
+      gap: $pants-div-gap;
+  
+      img {
+        width: $pants-img-width;
+        height: $pants-img-height;
+      }
+  
+      h3 {
+        text-align: $pants-h3-text-align;
+        font-size: $pants-h3-font-size;
+        color: $pants-h3-color;
+        font-family: $pants-h3-font-family;
+        font-weight: $pants-h3-font-weight;
+      }
+    }
+  }
+  

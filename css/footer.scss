@@ -1,0 +1,22 @@
+// _footer.scss
+
+// Estilos generales del footer
+$footer-padding-top: 1%;
+$footer-background: #572828;
+$footer-grid-columns: 1fr 1fr 1fr;
+$footer-position: relative;
+$footer-width: 100%;
+
+// Estilos de texto en el footer
+$footer-text-font-family: "Quicksand";
+$footer-text-font-weight: 300;
+$footer-text-font-size: 1vw;
+$footer-text-text-decoration: none;
+$footer-text-color: #ffcdbc;
+
+// Estilos de enlaces en el footer
+$footer-link-font-family: "Quicksand";
+$footer-link-font-weight: 300;
+$footer-link-font-size: 1vw;
+$footer-link-text-decoration: none;
+$footer-link-color: hsl(15, 100%, 87%);

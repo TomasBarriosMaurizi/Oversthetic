@@ -1,0 +1,113 @@
+// _contacto.scss
+
+// Estilos generales de la sección de "Contacto"
+.cuerpoContacto {
+    min-height: $contacto-min-height;
+    display: $contacto-display;
+    position: relative;
+    grid-template-rows: $contacto-grid-template-rows;
+    background-color: $contacto-background-color;
+    .footerContacto {
+      margin-top: $contacto-footer-margin-top;
+    }
+  
+    > h1 {
+      padding-bottom: $contacto-h1-padding-bottom;
+      text-align: $contacto-h1-text-align;
+      font-weight: $contacto-h1-font-weight;
+      font-size: $contacto-h1-font-size;
+      text-align: $contacto-h1-text-align;
+      padding-top: $contacto-h1-padding-top;
+      color: $contacto-h1-color;
+    }
+  }
+  
+  // Estilos generales de la sección de "Contacto" en media queries
+  @media screen and (max-width: 990px) {
+    .contacto {
+      display: grid;
+      grid-template-columns: $contacto-grid-template-columns;
+      height: $contacto-height;
+      margin-bottom: $contacto-margin-bottom;
+  
+      .contactos {
+        display: grid;
+        grid-template-rows: $contacto-contactos-grid-template-rows;
+      }
+  
+      .seccionContacto {
+        display: $contacto-seccionContacto-display;
+        flex: $contacto-seccionContacto-flex;
+        justify-content: $contacto-seccionContacto-justify-content;
+        align-items: $contacto-seccionContacto-align-items;
+        background-color: $contacto-seccionContacto-background-color;
+        border-radius: $contacto-seccionContacto-border-radius;
+        margin-bottom: $contacto-seccionContacto-margin-bottom;
+        margin-left: $contacto-seccionContacto-margin-left;
+  
+        h3 {
+          font-family: $contacto-h3-font-family;
+          font-size: $contacto-h3-font-size;
+          color: $contacto-h3-color;
+          background-color: $contacto-h3-background-color;
+          padding: $contacto-h3-padding;
+          border-radius: $contacto-h3-border-radius;
+        }
+  
+        img {
+          width: $contacto-seccionContacto-img-width;
+        }
+      }
+  
+      .mensaje {
+        background-color: $contacto-mensaje-background-color;
+        border-radius: $contacto-mensaje-border-radius;
+        margin-inline: $contacto-mensaje-margin-inline;
+        margin-bottom: $contacto-mensaje-margin-bottom;
+  
+        h2 {
+          text-align: $contacto-mensaje-h2-text-align;
+          font-family: $contacto-mensaje-h2-font-family;
+          font-weight: $contacto-mensaje-h2-font-weight;
+          font-size: $contacto-mensaje-h2-font-size;
+          padding-top: $contacto-mensaje-h2-padding-top;
+          color: $contacto-mensaje-h2-color;
+          padding-bottom: $contacto-mensaje-h2-padding-bottom;
+        }
+  
+        .formulario {
+          display: $contacto-mensaje-formulario-display;
+          flex-direction: $contacto-mensaje-formulario-flex-direction;
+          align-items: $contacto-mensaje-formulario-align-items;
+          margin-bottom: $contacto-mensaje-formulario-margin-bottom;
+          margin-bottom: $contacto-mensaje-formulario-margin-bottom;
+          font-size: $contacto-mensaje-formulario-font-size;
+          font-family: $contacto-mensaje-formulario-font-family;
+          color: $contacto-mensaje-formulario-color;
+        }
+  
+        .mapa {
+          background-color: $contacto-mensaje-mapa-background-color;
+          margin-bottom: $contacto-mensaje-mapa-margin-bottom;
+          border-radius: $contacto-mensaje-mapa-border-radius;
+  
+          h3 {
+            display: $contacto-mensaje-mapa-h3-display;
+            text-align: $contacto-mensaje-mapa-h3-text-align;
+            font-family: $contacto-mensaje-mapa-h3-font-family;
+            font-size: $contacto-mensaje-mapa-h3-font-size;
+            font-weight: $contacto-mensaje-mapa-h3-font-weight;
+            padding-top: $contacto-mensaje-mapa-h3-padding-top;
+            padding-bottom: $contacto-mensaje-mapa-h3-padding-bottom;
+          }
+        }
+      }
+  
+      .mapa iframe {
+        display: $contacto-mapa-iframe-display;
+        width: $contacto-mapa-iframe-width;
+        height: $contacto-mapa-iframe-height;
+      }
+    }
+  }
+  

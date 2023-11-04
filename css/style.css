@@ -322,8 +322,12 @@ footer .footerlist a {
 .cuerpoContacto {
   min-height: 100vh;
   display: grid;
+  position: relative;
   grid-template-rows: auto 1fr auto;
   background-color: #250707;
+}
+.cuerpoContacto .footerContacto {
+  margin-top: 15%;
 }
 .cuerpoContacto > h1 {
   padding-bottom: 10vh;
@@ -339,7 +343,7 @@ footer .footerlist a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   height: 50vh;
-  margin-bottom: 7rem;
+  margin-bottom: 27rem;
 }
 .contacto .contactos {
   display: grid;
@@ -397,6 +401,7 @@ footer .footerlist a {
   border-radius: 10%;
 }
 .contacto .mensaje .mapa h3 {
+  display: none;
   text-align: center;
   font-family: "Barlow";
   font-size: 2vw;
@@ -407,10 +412,6 @@ footer .footerlist a {
 .contacto .mapa iframe {
   width: 100%;
   height: 70%;
-}
-
-.footerPreguntas {
-  margin-top: 10%;
 }
 
 
@@ -540,6 +541,71 @@ footer .footerlist a {
     font-size: 2.5vh;
   }
   .contacto {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 70vh;
+    margin-bottom: 27rem;
+  }
+  .contacto .contactos {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .contacto .seccionContacto {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcdbc;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+  }
+  .contacto .seccionContacto h3 {
+    font-family: "Barlow";
+    font-size: 2vh;
+    color: #947b73;
+    background-color: #130303;
+    padding: 2% 1%;
+    border-radius: 20%;
+  }
+  .contacto .seccionContacto img {
+    width: 40%;
+  }
+  .contacto .mensaje {
+    background-color: #ffcdbc;
+    border-radius: 10%;
+    margin-inline: 6%;
+    margin-bottom: 5%;
+  }
+  .contacto .mensaje h2 {
+    text-align: center;
+    font-family: "Barlow";
+    font-weight: 500;
+    font-size: 2vh;
+    padding-top: 4%;
+    color: #130303;
+    padding-bottom: 7%;
+  }
+  .contacto .mensaje .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0%;
+    margin-bottom: 14%;
+    font-size: 1.5vh;
+    font-family: "Barlow";
+    color: #572828;
+  }
+  .contacto .mensaje .mapa {
+    background-color: #ffcdbc;
+    margin-bottom: 5%;
+    display: none;
+    border-radius: 10%;
+    height: 1;
+  }
+  .mapa iframe {
+    display: none;
+    width: 100%;
+    height: 70%;
   }
 }/*# sourceMappingURL=style.css.map */

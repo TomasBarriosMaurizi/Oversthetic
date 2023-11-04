@@ -1,0 +1,56 @@
+// _ofertas.scss
+
+// Estilos del título de "Ofertas"
+.oferTitulo {
+    font-family: $oferTitulo-font-family;
+    font-weight: $oferTitulo-font-weight;
+    font-size: $oferTitulo-font-size;
+    text-align: $oferTitulo-text-align;
+    color: $oferTitulo-color;
+  }
+  
+  // Estilos del contenedor del carrusel de "Ofertas"
+  .carrusel {
+    width: $carrusel-width;
+    display: $carrusel-display;
+    justify-content: $carrusel-justify-content;
+    padding: $carrusel-padding-block;
+  
+    #carouselExampleCaptions {
+      width: $carousel-inner-width;
+      height: $carousel-inner-height;
+      border-radius: $carousel-inner-border-radius;
+  
+      .carousel-item {
+        width: $carousel-item-width;
+        height: $carousel-item-height;
+  
+        img {
+          -o-object-fit: cover;
+          object-fit: cover;
+          width: $carousel-item-width;
+          height: $carousel-item-height;
+        }
+  
+        .carousel-caption {
+          bottom: $carousel-caption-bottom;
+          left: $carousel-caption-left;
+          width: $carousel-caption-width;
+          background: $carousel-caption-background;
+          color: $carousel-caption-color;
+          padding: $carousel-caption-padding;
+  
+          h2 {
+            font-size: $carousel-h2-font-size;
+            font-family: $carousel-h2-font-family;
+          }
+  
+          p {
+            font-size: $carousel-p-font-size;
+            font-family: $carousel-p-font-family;
+          }
+        }
+      }
+    }
+  }
+  
