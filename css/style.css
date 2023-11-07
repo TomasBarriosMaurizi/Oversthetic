@@ -188,8 +188,10 @@ footer .footerlist a {
   text-align: center;
   font-size: 1.9vw;
   color: #ffcdbc;
+  padding-bottom: 2rem;
   padding-inline: 10%;
   margin-top: 1.5rem;
+  max-height: 10%;
   background-color: #130303;
   border-radius: 1rem;
   margin-bottom: 4vw;
