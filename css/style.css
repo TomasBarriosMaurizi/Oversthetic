@@ -140,11 +140,11 @@ footer .footerlist a {
   width: 46vw;
   height: 60vw;
 }
-.carrusel .cuerpoOferta {
+.carrusel {
   background-color: #947b73;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 .carrusel .carousel-inner {
   width: 100%;
@@ -189,6 +189,7 @@ footer .footerlist a {
   font-size: 1.9vw;
   color: #ffcdbc;
   padding-inline: 10%;
+  margin-top: 1.5rem;
   background-color: #130303;
   border-radius: 1rem;
   margin-bottom: 4vw;
